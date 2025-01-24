@@ -7,4 +7,5 @@ export const FORM_ERRORS_MSGS = {
     ONLY_NUMBER: 'Solo puede ingresar números',
     REQUIRED: 'El campo es obligatorio',
     DELETE_TASK: 'La tarea ha sido eliminada',
+    UNSELECT: 'Selecciona una opcion'
 }
