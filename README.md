@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Seek Task Manager
 
-## Getting Started
+Este es un proyecto de gestión de tareas creado con **Next.js** y tecnologías modernas como **Tailwind CSS**, **ShadCN**, **Zod** y **React Hook Form**. El proyecto permite a los usuarios gestionar tareas de manera eficiente y está diseñado con una interfaz moderna y responsiva.
 
-First, run the development server:
+## Tecnologías Utilizadas
+
+- **Next.js**: Framework de React para crear aplicaciones web escalables y optimizadas.
+- **Tailwind CSS**: Utilizado para el diseño de la interfaz de usuario de manera rápida y eficiente.
+- **ShadCN**: Biblioteca de componentes UI basada en un enfoque "Headless UI" para React.
+- **Zod**: Biblioteca de validación de esquemas para asegurarse de que los datos sean correctos y cumplan con las expectativas.
+- **React Hook Form**: Utilizado para manejar los formularios de manera eficiente en React.
+
+## Instalación
+
+### Clonar el repositorio
+
+Primero, clona el repositorio a tu máquina local:
+
+```bash
+git clone https://github.com/Hipns1/seek-task-manager.git
+cd seek-task-manager
+```
+
+### Instalar dependencias
+
+```bash
+npm install
+```
+
+### Configuración
+
+Crea un archivo .env en la raíz del proyecto y agrega la configuración suministrada en el correo de entrega del proyecto.
+
+### Iniciar el servidor de desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Credenciales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El proyecto utiliza credenciales de ejemplo para la autenticación.
+usuario: usuario@seek.com
+contraseña: password123
